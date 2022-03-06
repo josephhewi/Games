@@ -1,6 +1,6 @@
 class wordle:
     
-    libraryRaw = open("C:/Users/josep/Documents/sgb-words.txt")
+    libraryRaw = open("./sgb-words.txt")
     library = libraryRaw.read()
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     
