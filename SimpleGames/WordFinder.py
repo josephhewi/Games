@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr  5 18:06:59 2022
-
-@author: josep
-"""
 
 class finder():
     
@@ -139,10 +133,4 @@ class finder():
                 print(line)
             x = input("Press any key to continue...")
             
-
-                
-            
-
-pg6 = finder("Page6")
-pg6.showAnswers()
 
