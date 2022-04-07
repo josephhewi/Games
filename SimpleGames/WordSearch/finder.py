@@ -73,13 +73,13 @@ class finder():
     def showAnswers(self):
         for sol in self.solutions:
             if(sol[0]==''):
-                continue
+                continue            #skips the rest of this loop if blank sol
             print(sol)
             
         for sol in self.solutions:
             found = [["." for j in range(0,self.width)] for i in range(0,self.height)]
             if(sol[0]==''):
-                continue
+                continue            #skips the rest of this loop if blank sol
             
             y = sol[1]
             x = sol[3]
